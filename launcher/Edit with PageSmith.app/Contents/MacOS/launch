@@ -33,7 +33,7 @@ else
 fi
 
 # Start PageSmith in the background
-$NPX pagesmith --dir "$DIR" --port $PORT &
+$NPX github:justinmassa/pagesmith --dir "$DIR" --port $PORT &
 PAGESMITH_PID=$!
 
 # Wait a moment for it to start
